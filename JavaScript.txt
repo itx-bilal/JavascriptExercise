@@ -1,0 +1,144 @@
+#2
+var person_name = "Bilal";
+console.log("Hello "+person_name+", Would you like to learn some Python today?")
+
+#3
+var person_name = "Bilal";
+console.log(person_name.toUpperCase())
+console.log(person_name.toLowerCase())
+console.log(person_name.toString())
+
+#4
+var person_name = "Allama Muhammad Iqbal";
+var quote = "\"The ultimate aim of the ego is not to see something, but to be something.\""
+console.log(person_name+" once said, "+quote)
+
+#5
+var famous_person = "Allama Muhammad Iqbal";
+var message = famous_person+" once said, \"The ultimate aim of the ego is not to see something, but to be something.\"";
+console.log(message)
+
+#6
+var persons_name = "Muhammad Bilal";
+console.log(persons_name)
+console.log("\t"+persons_name)
+
+#7
+console.log("Addition: "+(5+3))
+console.log("Subtraction: "+(12-4))
+console.log("Multiplication: "+(2*4))
+console.log("Division: "+(16/2))
+
+#8
+console.log(5+3)
+console.log(12-4)
+console.log(2*4)
+console.log(16/2)
+
+#9
+var favorite_number = 7;
+var message = "My favorite number is "+favorite_number;
+console.log(message)
+
+#10
+// Muhammad Bilal Oct 3 2022
+// This program prints the quote of your favorite person
+var famous_person = "Allama Muhammad Iqbal";
+var message = famous_person+" once said, \"The ultimate aim of the ego is not to see something, but to be something.\"";
+console.log(message)
+
+// Muhammad Bilal Oct 3 2022
+// This program prints the favorite number
+var favorite_number = 7;
+var message = "My favorite number is "+favorite_number;
+console.log(message)
+
+#11
+var names = ["Bilal","Fahad","Jahanzaib","Noman"];
+console.log(names[0])
+console.log(names[1])
+console.log(names[2])
+console.log(names[3])
+
+#12
+var names = ["Bilal","Fahad","Jahanzaib","Noman"];
+console.log("Asslam-o-alikum "+names[0])
+console.log("Asslam-o-alikum "+names[1])
+console.log("Asslam-o-alikum "+names[2])
+console.log("Asslam-o-alikum "+names[3])
+
+#13
+var cars = ["Fortuner","Prius","Land Cruiser","Cultus"];
+console.log("My dream car is "+cars[0])
+console.log("In my imagination, the prettiest car is "+cars[1])
+console.log("The car used for protocols and attitude is "+cars[2])
+console.log("The old car in suzuki company is "+cars[3])
+
+#14
+console.log("From: Muhammad Bilal")
+var names = ["Haris","Anita","Azeem","Raheem"];
+for(var i=0;i<names.length;i++) {
+    console.log("A.o.A "+names[i]+", I invite you on dinner at 9'o clock");
+}
+
+#15
+var names = ["Haris","Anita","Azeem","Raheem"];
+//Azeem can't make the dinner so we are replacing another guest
+names.splice(2,1,"Rehan")
+for(var i=0;i<names.length;i++) {
+    console.log("A.o.A "+names[i]+", I invite you on dinner at 9'o clock");
+}
+
+#16
+console.log("I found a big dinner table at Avari Hotel Lahore")
+var names = ["Haris","Anita","Azeem","Raheem"];
+names.unshift("Abubakar");
+names.splice(3,0,"Naeem");
+names.push("Saqib");
+for(var i=0;i<names.length;i++) {
+    console.log("A.o.A "+names[i]+", I invite you on dinner at 9'o clock");
+}
+
+#17
+console.log("I can only invite 2 people for dinner");
+var names = ["Haris","Anita","Azeem","Raheem"];
+names.unshift("Abubakar");
+names.splice(3,0,"Naeem");
+names.push("Saqib");
+console.log(names)
+for(var i=0;i<5;i++) {
+    console.log("Sorry! "+names.pop()+" you are not invited because of seats shortage")
+}
+for(var i=0;i<names.length;i++) {
+    console.log("A.o.A "+names[i]+", You're still invited on dinner at 9'o clock");
+}
+names.pop()
+names.pop()
+console.log(names)
+
+#18
+var locations = ["Makkah","Paris","England","Australlia","Canada"];
+// Printing array in original order
+console.log("in orignial order:\n"+locations);
+// Printing array in alphabetic order without modifying the actual list
+console.log("in alphabetic order without modifying list:\n"+locations.slice().sort());
+// Printing array in original order
+console.log("still in original order:\n"+locations);
+// Printing array in reverse order without modifying the actual list
+console.log("in reverse order without modifying list:\n"+locations.slice().reverse());
+// Printing array in original order
+console.log("still in original order:\n"+locations);
+// Printing array in reverse order
+console.log("in reverse order:\n"+locations.reverse())
+// Printing again array in reverse order
+console.log("again in reverse order:\n"+locations.reverse());
+// Printing array in alpahbetic order
+console.log("in alphabetic order:\n"+locations.sort());
+// Printing again array in alphabetic order
+console.log("again in alphabetic order:\n"+locations.sort());
+
+#19
+var names = ["Haris","Anita","Azeem","Raheem"];
+console.log("Total no of people invited =  "+names.length)
+
+#20
